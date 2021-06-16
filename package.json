@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-base-beta",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Beta distributed pseudorandom numbers.",
   "license": "Apache-2.0",
   "author": {
