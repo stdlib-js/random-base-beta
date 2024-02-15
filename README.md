@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-beta@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-base-beta/tags). For example,
+
+```javascript
 import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-beta@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-beta@v0.2.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-beta@esm/index.mjs';
 ```
 
 #### beta( alpha, beta )
@@ -398,7 +403,7 @@ var o = rand.toJSON();
 <body>
 <script type="module">
 
-import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-beta@v0.2.0-esm/index.mjs';
+import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-beta@esm/index.mjs';
 
 var seed;
 var rand;
