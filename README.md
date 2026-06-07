@@ -462,6 +462,7 @@ for ( i = 0; i < 100; i++ ) {
 -   <span class="package-name">[`@stdlib/random-array/beta`][@stdlib/random/array/beta]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a beta distribution.</span>
 -   <span class="package-name">[`@stdlib/random-iter/beta`][@stdlib/random/iter/beta]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a beta distribution.</span>
 -   <span class="package-name">[`@stdlib/random-streams/beta`][@stdlib/random/streams/beta]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from a beta distribution.</span>
+-   <span class="package-name">[`@stdlib/random-beta`][@stdlib/random/beta]</span><span class="delimiter">: </span><span class="description">generate pseudorandom numbers drawn from a beta distribution.</span>
 
 </section>
 
@@ -554,6 +555,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/random/iter/beta]: https://github.com/stdlib-js/random-iter-beta
 
 [@stdlib/random/streams/beta]: https://github.com/stdlib-js/random-streams-beta
+
+[@stdlib/random/beta]: https://github.com/stdlib-js/random-beta
 
 <!-- </related-links> -->
 
